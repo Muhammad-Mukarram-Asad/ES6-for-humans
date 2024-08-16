@@ -51,7 +51,7 @@ var a = 2;
     console.log(a); // 3
     let a = 5; // TypeError: Identifier 'a' has already been declared
 }
-console.log(a); // 2
+console.log(a); // The answer is 2
 ```
 
 Another form of block-scoped declaration is the `const`, which creates constants. In ES6, a `const` represents a constant reference to a value. In other words, `Object`'s and `Array`'s contents may change, only the re-assignment of the variable is prevented. Here's a simple example:
